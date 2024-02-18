@@ -1,4 +1,6 @@
 #+title: Flakes:
 
+Highly opinionated flakes for working with GNU Emacs
+
 * Why?
 Because I'm tired of copying =flake.nix= files around between projects.
