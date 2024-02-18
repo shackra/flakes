@@ -9,6 +9,8 @@
       "https://flakehub.com/f/DeterminateSystems/flake-schemas/*.tar.gz";
 
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.2311.*.tar.gz";
+    # TODO: plugin flakes/essentials here
+    # NOTE: figure how to do that
   };
 
   # Flake outputs that other flakes can use
