@@ -44,6 +44,8 @@
             # needed by lsp-mode
             semgrep
             yaml-language-server
+            docker-compose-language-service
+            dockerfile-language-server-nodejs
 
             # needed by apheleia
             yamlfmt
