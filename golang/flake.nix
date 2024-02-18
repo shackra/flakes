@@ -9,12 +9,11 @@
       "https://flakehub.com/f/DeterminateSystems/flake-schemas/*.tar.gz";
 
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/0.2311.*.tar.gz";
-    # TODO: plugin flakes/essentials here
-    # NOTE: figure how to do that
+    essentials.url = "github:shackra/flakes?dir=essentials";
   };
 
   # Flake outputs that other flakes can use
-  outputs = { self, flake-schemas, nixpkgs }:
+  outputs = { self, flake-schemas, nixpkgs, essentials }:
     let
       # Helpers for producing system-specific outputs
       supportedSystems =
