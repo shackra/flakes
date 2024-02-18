@@ -1,0 +1,4 @@
+#+title: Flakes:
+
+* Why?
+Because I'm tired of copying =flake.nix= files around between projects.
